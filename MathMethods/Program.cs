@@ -16,12 +16,12 @@ namespace MathMethods
             Console.WriteLine(answer);
 
             Console.WriteLine($"Pick A Number Please?.");
-           string userAnswer = Console.ReadLine();
+            var userAnswer = int.Parse(Console.ReadLine());
             Console.WriteLine($"Please Choose Another Number?.");
-            String secUserAnswer = Console.ReadLine();
+            var secUserAnswer = int.Parse(Console.ReadLine());
             Console.WriteLine($"Please Choose Another Number Again?.");
-            String thirdUserAnswer = Console.ReadLine();
-
+            var thirdUserAnswer = int.Parse(Console.ReadLine());
+            Add (userAnswer, secUserAnswer, thirdUserAnswer);
 
 
 
